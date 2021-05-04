@@ -1,0 +1,8 @@
+// Run tsc -w in project directory to compile TS into JS in watch mode
+// All TS files in src will be compiled into JS in ./dist 
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist"
+    }
+}
